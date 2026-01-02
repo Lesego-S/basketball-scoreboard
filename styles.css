@@ -25,6 +25,8 @@ body {
     align-items: center;
     width: 95%;
     max-width: 750px;
+    height: auto;
+    min-height: 500px;
     padding: 2rem 1rem;
     margin: 1rem auto;
     background-color: #2A2141; 
@@ -113,12 +115,6 @@ body {
     text-transform: uppercase;
 }
 
-@media (min-height: 700px) {
-    body {
-        height: 100vh;
-        overflow: hidden;
-    }
-}
 
 @media (max-width: 600px) {
     .flex-container {
@@ -126,8 +122,11 @@ body {
         gap: 2rem;
     }
     
-    .container {
-        margin: 1rem auto;
-        border-radius: 20px;
-    }
-}
+   .team-heading {
+    margin-top: 1rem;
+    font-size: 32px;
+   }
+
+   .score-container {
+    margin: 1rem auto;
+   }
